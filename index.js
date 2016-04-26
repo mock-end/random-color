@@ -5,16 +5,10 @@ var color = require('color');
 var ratio = 0.618033988749895;
 var hue   = Math.random();
 
-
-module.exports = function (options) {
+module.exports = function (saturation, value) {
 
   hue += ratio;
   hue %= 1;
-
-  options = options || {};
-
-  var saturation = options.saturation;
-  var value      = options.value;
 
   if (typeof saturation !== 'number') {
     saturation = 0.5;
@@ -24,11 +18,9 @@ module.exports = function (options) {
     value = 0.95;
   }
 
-  var hsv = {
+  return color({
     h: hue * 360,
     s: saturation * 100,
     v: value * 100
-  };
-
-  return options.raw ? hsv : color(hsv);
+  });
 };

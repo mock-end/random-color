@@ -14,7 +14,7 @@
   "keywords": [
     "color",
     "rgb",
-    "hsl",
+    "hex",
     "random",
     "randomly",
     "randomize",
@@ -23,8 +23,11 @@
     "dice",
     "mock"
   ],
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
   "license": "MIT",
-  "author": "bubkoo <bubkoo.wy@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mock-end/random-color.git"
