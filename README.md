@@ -10,9 +10,7 @@
 
 This module is deeply inspired by Martin Ankerl's [blog post](http://martin.ankerl.com/2009/12/09/how-to-create-random-colors-programmatically/). 
 
-The generated colors are more visually pleasing together than a simple random color generator because they are computed by moving around the color wheel in increments of the golden ratio. 
-
-By default, the generated colors can used as a background for legible black text, but the color generator can be customized for other uses.
+The generated colors are more visually pleasing together than a simple random color generator because they are computed by moving around the color wheel in increments of the golden ratio. By default, the generated colors can used as a background for legible black text, but the color generator can be customized for other uses.
 
 
 ## Install
