@@ -26,7 +26,9 @@ var randomColor = require('random-color');
 // - randomColor([saturation, value]);
 ```
 
-By default, generate a color with `saturation = 0.5` and `value = 0.95`, and returns [color](https://github.com/harthur/color) object so you can convert the color to any color-formats easily.
+By default, generate a color with `saturation = 0.5` and `value = 0.95`. 
+
+Returns [color](https://github.com/harthur/color) object so you can convert the color to any color-formats easily.
 
 ```js
 var color = randomColor();
